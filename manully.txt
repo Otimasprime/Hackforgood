@@ -1,0 +1,6 @@
+X=MsgBox("Hello,welcome to this Friends prank app",0+16,"Welcome meassage")
+X=MsgBox("Do you want to give permisson to this Friends prank app",0+16,"Permisson meassage") 
+X=MsgBox("Call your friends",0+16,"Calling meassage")
+X=MsgBox("Your computer is hacked",0+16,"Hacked meassage")
+X=MsgBox("Do you lick this prank",0+16,"Prank meassage")
+X=MsgBox("Thanks for choose our app",0+16,"Thanks meassage")

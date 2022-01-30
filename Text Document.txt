@@ -1,0 +1,71 @@
+Wifi password checker :--
+
+netsh wlan show profile  name=connected wifi name key=clear
+
+How to make a folder it not delect or can't assces on other computers:---
+
+md aux\
+
+How to delect this folder :--
+
+rd aux\
+
+How to hide any folder :--
+
+attrib +h +s +r folder name
+
+If you want to bring your folder back :--
+
+attrib -h -s -r folder name
+
+How to Shutdown your computer using command prompt :---
+
+shutdown -s
+
+How to restart your computer using command prompt :---
+
+shutdown -r
+
+How to lock your computer using command prompt :---
+
+shutdown -l
+
+And if you want to set countdown command for shutdown your computer :--
+
+shutdown /s /t sc
+
+And if you want to give message command before shutdown your computer :--
+
+shutdown /s /t sc /c "Your message"
+
+Create a wifi hotspot :---
+
+netsh wlan set hostednetwork mode=allow ssid=Your hostpot name key= password you want to set
+
+For start your hostpot :--
+
+netsh wlan start hostednetwork
+
+For stop your hostpot :--
+
+netsh wlan stop hostednetwork
+
+If you want  your all files and folders detles :---
+
+dir
+
+If you want  your all files and folders in shortcuts :---
+
+dir /b /s
+
+How to know any website ipaddres :--
+
+ping www.google.com
+
+How to know trun on wifi network near you around :--
+
+netsh wlan show profile
+
+how to save it :--
+
+netsh wlan export profile folder=C:\ key=clear

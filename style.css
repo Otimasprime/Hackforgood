@@ -1,0 +1,66 @@
+body{
+  background-color: yellow;
+}
+
+
+
+
+
+
+p{
+
+color: red;
+
+}
+
+h1 {
+
+color:red;
+font-size:larger;
+font-weight: 1000;
+font-style:italic;
+font: 3em sans-serif;
+background-color:black;
+text-align: center;
+text-decoration: underline;
+
+
+
+}
+
+p {
+
+color: black;
+
+
+}
+
+li {
+
+color: red;
+font-style: oblique;
+
+}
+
+
+
+a {
+
+color:black;
+text-decoration: underline;
+font-style: italic;
+}
+
+ion-icon {
+
+  .social-icon{
+    color: #aaaaaa;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+
+{
+  .social-icon:hover
+    color: #333333
+
+}
